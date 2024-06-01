@@ -3384,7 +3384,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
 .gallery {
   overflow: hidden;
-  padding-bottom: 120px;
+  padding-bottom: 53px;
   position: relative;
 }
 
@@ -3402,6 +3402,76 @@ body._touch .header .menu__list > li._active .menu__arrow {
   font-size: 20.48px;
   line-height: 30.72px;
   margin: 0;
+}
+
+.gallery__wrap-slider {
+  margin-top: 17px;
+  position: relative;
+}
+
+.gallery__slider {
+  margin-left: 71px;
+  margin-right: 71px;
+  overflow: hidden;
+}
+
+.gallery__sliderBlockImage {
+  display: block;
+  padding-bottom: 68.4%;
+  position: relative;
+}
+
+.gallery__sliderBlockImage img {
+  left: 0;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.gallery .swiper-button-prev,
+.gallery .swiper-button-next {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 38.5px;
+  margin-top: -19px;
+  width: 38.5px;
+}
+
+.gallery .swiper-button-prev::after,
+.gallery .swiper-button-next::after {
+  display: none;
+}
+
+.gallery .swiper-button-prev {
+  left: -20px;
+}
+
+.gallery .swiper-button-next {
+  right: -20px;
+}
+
+.gallery .swiper-pagination {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.gallery .swiper-pagination .swiper-pagination-bullet {
+  background-color: #212426;
+  height: 10px;
+  margin: 10px;
+  opacity: 0.25;
+  width: 10px;
+}
+
+.gallery .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
 }
 
 .gallery__element {
@@ -3589,6 +3659,14 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .about-us__itemBlockText {
     max-width: 356px;
     padding-left: 20px;
+  }
+
+  .gallery .swiper-button-prev {
+    left: -10px;
+  }
+
+  .gallery .swiper-button-next {
+    right: -10px;
   }
 
   .footer {
@@ -3837,6 +3915,14 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
   .partners .swiper-button-next {
     right: 39px;
+  }
+
+  .gallery .swiper-button-prev {
+    left: -2px;
+  }
+
+  .gallery .swiper-button-next {
+    right: -2px;
   }
 }
 
@@ -4427,6 +4513,11 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .communication-contacts__wrap-map {
     margin-top: 0;
   }
+
+  .gallery__slider {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
 }
 
 @media screen and (max-width: 991.98px) {
@@ -4517,6 +4608,11 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
   .communication-contacts__block:nth-child(1) {
     margin-bottom: 21px;
+  }
+
+  .gallery__slider {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .footer__item h1,
@@ -4878,6 +4974,37 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
   .gallery .n_sec-title {
     margin-bottom: 12px;
+  }
+
+  .gallery__wrap-slider {
+    margin-top: 25px;
+  }
+
+  .gallery .swiper-button-prev,
+  .gallery .swiper-button-next {
+    height: 23px;
+    margin-top: -11.5px;
+    width: 18px;
+  }
+
+  .gallery .swiper-button-prev svg,
+  .gallery .swiper-button-next svg {
+    max-height: 70%;
+    max-width: 70%;
+  }
+
+  .gallery .swiper-pagination {
+    margin: 9px 0;
+  }
+
+  .gallery .swiper-pagination .swiper-pagination-bullet {
+    height: 5.4px;
+    margin: 5px;
+    width: 5.4px;
+  }
+
+  .gallery .swiper-pagination .swiper-pagination-bullet-active {
+    opacity: 0.75;
   }
 
   .footer {
