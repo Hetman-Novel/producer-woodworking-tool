@@ -4,9 +4,9 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="files/swiper/css/swiper-bundle.min.css?_v=20240601164426">
-   <link rel="stylesheet" href="files/fancybox/fancybox.css?_v=20240601164426">
-   <link rel="stylesheet" href="css/style.min.css?_v=20240601164426">
+   <link rel="stylesheet" href="files/swiper/css/swiper-bundle.min.css?_v=20240601205821">
+   <link rel="stylesheet" href="files/fancybox/fancybox.css?_v=20240601205821">
+   <link rel="stylesheet" href="css/style.min.css?_v=20240601205821">
    <!--<link rel="icon" type="image/svg+xml" href="favicon.svg">-->
    <title>Головна - Виробник деревообробного інструменту</title>
 
@@ -138,7 +138,12 @@
          <section class="first-screen fix-bg" style="background-image: url('images/first-screen-bg.jpg')">
             <div class="n_container">
                <div class="first-screen__block">
-                  <h1>Виробник деревообробного інструменту</h1>
+                  <div class="js-wrap-title">
+                     <h1 id="main-title"></h1>
+                     <div id="main-title-strings" class="n_sec-title no-display-none">
+                        <span>Виробник деревообробного інструменту</span>
+                     </div>
+                  </div>
                   <p>Зроблено в Україні <span class="line">line</span></p>
                </div>
             </div>
@@ -148,7 +153,12 @@
 
          <section class="production fix-bg" style="background-image: url('images/production-bg.png')">
             <div class="n_container">
-               <h2 class="n_sec-title">Виробництво<span>.</span></h2>
+               <div id="production-block-title" class="js-wrap-title">
+                  <h2 id="production-title" class="n_sec-title"></h2>
+                  <div id="production-title-strings" class="n_sec-title no-display-none">
+                     <span>Виробництво<span>.</span></span>
+                  </div>
+               </div>
                <div class="production__blockText">
                   <p>Багатий асортимент <span>промислового інструменту власного виробництва Leniv</span> із високоякісної сталі та сплавів для деревообробної галузі.</p>
                </div>
@@ -240,7 +250,12 @@
 
          <section class="service fix-bg" style="background-image: url('images/service-bg.jpg')">
             <div class="n_container">
-               <h2 class="n_sec-title">Сервіс<span>.</span></h2>
+               <div id="service-block-title" class="js-wrap-title">
+                  <h2 id="service-title" class="n_sec-title"></h2>
+                  <div id="service-title-strings" class="n_sec-title no-display-none">
+                     <span>Сервіс<span>.</span></span>
+                  </div>
+               </div>
                <div class="service__items">
                   <div class="service__item">
                      <div class="service__blockText">
@@ -334,7 +349,12 @@
 
          <section class="why-us fix-bg" style="background-image: url('images/why-us-bg.png')">
             <div class="n_container">
-               <h2 class="n_sec-title">Чому ми<span>?</span></h2>
+               <div id="why-us-block-title" class="js-wrap-title">
+                  <h2 id="why-us-title" class="n_sec-title"></h2>
+                  <div id="why-us-title-strings" class="n_sec-title no-display-none">
+                     <span>Чому ми<span>?</span></span>
+                  </div>
+               </div>
                <div class="why-us__items">
                   <div class="why-us__item">
                      <div class="why-us__blockInfo">
@@ -376,7 +396,12 @@
 
          <section class="partners">
             <div class="n_container">
-               <h2 class="n_sec-title">Партнери<span>.</span></h2>
+               <div id="partners-block-title" class="js-wrap-title">
+                  <h2 id="partners-title" class="n_sec-title"></h2>
+                  <div id="partners-title-strings" class="n_sec-title no-display-none">
+                     <span>Партнери<span>.</span></span>
+                  </div>
+               </div>
                <div class="partners__blockText">
                   <p>Індивідуальний підхід до технологічних аспектів кожного нашого партнера</p>
                </div>
@@ -430,7 +455,12 @@
             <div class="n_container">
                <div class="about-us__block">
                   <div class="about-us__content">
-                     <h2 class="n_sec-title">Про нас<span>.</span></h2>
+                     <div id="about-us-block-title" class="js-wrap-title">
+                        <h2 id="about-us-title" class="n_sec-title"></h2>
+                        <div id="about-us-title-strings" class="n_sec-title no-display-none">
+                           <span>Про нас<span>.</span></span>
+                        </div>
+                     </div>
                      <p class="about-us__text-under-title">Історія / Нагороди /Події</p>
                      <div class="about-us__blockText">
                         <p>Підприємство Leniv - один з лідерів на ринку деревообробних інструментів, що має завершений цикл виробництва з подальшим сервісним обслуговуванням</p>
@@ -458,7 +488,12 @@
             <div class="n_container">
                <div class="our-catalog__items">
                   <div class="our-catalog__item">
-                     <h2 class="n_sec-title">Наш каталог<span>.</span></h2>
+                     <div id="our-catalog-block-title" class="js-wrap-title">
+                        <h2 id="our-catalog-title" class="n_sec-title"></h2>
+                        <div id="our-catalog-title-strings" class="n_sec-title no-display-none">
+                           <span>Наш каталог<span>.</span></span>
+                        </div>
+                     </div>
                      <div class="our-catalog__blockText">
                         <p>На сьогоднішній день ТОВ «Ленів» є однією з найбільш розвинених компаній в Україні, яка займається виробництвом та сервісом інструменту для деревообробки.</p>
                      </div>
@@ -537,7 +572,12 @@
 
          <section class="gallery fix-bg" style="background-image: url('images/gallery-bg.jpg')">
             <div class="n_container">
-               <h2 class="n_sec-title">Галерея<span>.</span></h2>
+               <div id="gallery-block-title" class="js-wrap-title">
+                  <h2 id="gallery-title" class="n_sec-title"></h2>
+                  <div id="gallery-title-strings" class="n_sec-title no-display-none">
+                     <span>Галерея<span>.</span></span>
+                  </div>
+               </div>
                <div class="gallery__blockText">
                   <p>Виробничий процес, як окремий вид мистецтва</p>
                </div>
@@ -661,15 +701,18 @@
 
    </div>
 
-   <script src="js/script.min.js?_v=20240601164426"></script>
-   <script src="files/fancybox/fancybox.umd.js?_v=20240601164426"></script>
-   <!--<script src="files/js/jquery-3.6.1.min.js?_v=20240601164426"></script>-->
-   <script src="files/swiper/js/swiper-bundle.min.js?_v=20240601164426"></script>
-   <script src="files/swiper/js/init.js?_v=20240601164426"></script>
+   <script src="js/script.min.js?_v=20240601205821"></script>
+   <script src="files/fancybox/fancybox.umd.js?_v=20240601205821"></script>
+   <!--<script src="files/js/jquery-3.6.1.min.js?_v=20240601205821"></script>-->
+   <script src="files/swiper/js/swiper-bundle.min.js?_v=20240601205821"></script>
+   <script src="files/swiper/js/init.js?_v=20240601205821"></script>
 
-   <script src="files/fancybox/fancybox.umd.js?_v=20240601164426"></script>
+   <script src="files/fancybox/fancybox.umd.js?_v=20240601205821"></script>
 
-   <script src="files/js/init-map.js?_v=20240601164426"></script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkUntpxgYywg_nlhREijLYWEUOHYan4dk&callback=initMap&_v=20240601164426"></script>
+   <script src="files/js/init-map.js?_v=20240601205821"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkUntpxgYywg_nlhREijLYWEUOHYan4dk&callback=initMap&_v=20240601205821"></script>
+
+   <script src="files/js/typed.js?_v=20240601205821"></script>
+   <script src="files/js/typed-init.js?_v=20240601205821"></script>
 </body>
 </html>

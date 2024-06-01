@@ -2706,6 +2706,23 @@ body._touch .header .menu__list > li._active .menu__arrow {
   background-position: center center;
 }
 
+.js-wrap-title {
+  overflow: hidden;
+  position: relative;
+}
+
+.no-display-none {
+  display: block !important;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute !important;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  top: 0;
+}
+
 .first-screen {
   overflow: hidden;
   position: relative;
@@ -2829,6 +2846,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
   z-index: 2;
 }
 
+.production .js-wrap-title {
+  margin-bottom: 27px;
+}
+
 .production__blockText {
   max-width: 1063px;
 }
@@ -2849,6 +2870,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
 }
 
 .production__item {
+  overflow: hidden;
   margin-bottom: 15px;
   position: relative;
 }
@@ -2920,6 +2942,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
   transition: 0.8s ease 0s, opacity 0.2s;
 }
 
+.production__item:hover .production__blockImage img {
+  transform: scale(1.06);
+}
+
 .production__blockImage {
   padding-bottom: 91.8%;
   position: relative;
@@ -2931,6 +2957,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
+  transition: transform 0.6s;
   top: 0;
   width: 100%;
 }
@@ -2993,6 +3020,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
 .service .n_container {
   position: relative;
   z-index: 2;
+}
+
+.service .js-wrap-title {
+  margin-bottom: 9px;
 }
 
 .service .n_sec-title {
@@ -3132,7 +3163,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
 }
 
 .why-us__items {
-  margin-top: 77px;
+  margin-top: 75px;
 }
 
 .why-us__blockInfo {
@@ -3212,6 +3243,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
   margin-bottom: 22px;
 }
 
+.partners .js-wrap-title {
+  margin-bottom: 19px;
+}
+
 .partners__blockText p {
   color: #575757;
   font-size: 20.48px;
@@ -3276,6 +3311,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
 .about-us .n_container {
   position: relative;
   z-index: 2;
+}
+
+.about-us .js-wrap-title {
+  margin-bottom: 18px;
 }
 
 .about-us__block {
@@ -3362,7 +3401,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
 .our-catalog__blockText {
   max-width: 420px;
-  margin-top: 83px;
+  margin-top: 80px;
 }
 
 .our-catalog__blockText p {
@@ -3584,6 +3623,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
 .gallery .n_container {
   position: relative;
   z-index: 2;
+}
+
+.gallery .js-wrap-title {
+  margin-bottom: 18px;
 }
 
 .gallery .n_sec-title {
@@ -5032,6 +5075,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
     padding-bottom: 63px;
   }
 
+  .production .js-wrap-title {
+    margin-bottom: 9px;
+  }
+
   .production__blockText p {
     font-size: 20px;
     line-height: 24px;
@@ -5054,6 +5101,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .service {
     padding-bottom: 0;
     padding-top: 2px;
+  }
+
+  .service .js-wrap-title {
+    margin-bottom: 10px;
   }
 
   .service__blockText {
@@ -5103,7 +5154,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   }
 
   .why-us__items {
-    margin-top: 31px;
+    margin-top: 30px;
   }
 
   .why-us__blockInfo:not(:last-child) {
@@ -5142,6 +5193,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
     margin-bottom: 11px;
   }
 
+  .partners .js-wrap-title {
+    margin-bottom: 9px;
+  }
+
   .partners__blockText p {
     font-size: 20px;
     line-height: 24px;
@@ -5171,6 +5226,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .about-us {
     padding-bottom: 24px;
     padding-top: 60px;
+  }
+
+  .about-us .js-wrap-title {
+    margin-bottom: 9px;
   }
 
   .about-us .n_sec-title {
@@ -5309,6 +5368,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
   .gallery {
     padding-top: 16px;
+  }
+
+  .gallery .js-wrap-title {
+    margin-bottom: 9px;
   }
 
   .gallery .n_sec-title {
