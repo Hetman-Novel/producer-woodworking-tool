@@ -8,9 +8,14 @@ if (partnersSlider) {
       slidesPerView: 5,
       watchOverflow: true,
       spaceBetween: 18,
-      //loop: true,
+      loop: true,
       speed: 800,
       effect: 'slide',
+      autoplay: {
+         deley: 1000,
+         stopOnLastSlide: false,
+         disableOnInteraction: false,
+      },
       breakpoints: {
          0: {
             slidesPerView: 2,
