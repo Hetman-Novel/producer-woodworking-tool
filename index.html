@@ -4,9 +4,9 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="files/swiper/css/swiper-bundle.min.css?_v=20240601124724">
-   <link rel="stylesheet" href="files/fancybox/fancybox.css?_v=20240601124724">
-   <link rel="stylesheet" href="css/style.min.css?_v=20240601124724">
+   <link rel="stylesheet" href="files/swiper/css/swiper-bundle.min.css?_v=20240601164426">
+   <link rel="stylesheet" href="files/fancybox/fancybox.css?_v=20240601164426">
+   <link rel="stylesheet" href="css/style.min.css?_v=20240601164426">
    <!--<link rel="icon" type="image/svg+xml" href="favicon.svg">-->
    <title>Головна - Виробник деревообробного інструменту</title>
 
@@ -26,7 +26,113 @@
 </head>
 <body>
    <div class="wrapper">
-      
+      <header class="header">
+   <div class="header__wrapper lock-padding">
+      <div id="header-container" class="n_container header-container">
+         <div class="header__blockLogo">
+            <a href="/index.html">
+               <img src="images/svg/logo.svg" alt="">
+            </a>
+         </div>
+         <div class="header__menu menu">
+            <div class="menu__body">
+               <nav class="menu-topmenu-container">
+                  <ul class="menu__list">
+                     <li class="menu-item current-menu-item current_page_item">
+                        <a class="menu__link" href="#">Виробництво</a>
+                     </li>
+                     <li class="menu-item">
+                        <a class="menu__link" href="#">Сервіс</a>
+                     </li>
+                     <li class="menu-item"><!-- menu-item-has-children current-menu-item current_page_item -->
+                        <a class="menu__link" href="#">Про нас</a>
+                        <!--<span class="menu__arrow">
+                           <svg width="10" height="10" viewBox="0 0 24 24">
+                              <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"
+                                 fill="currentColor" />
+                           </svg>
+                        </span>
+                        <ul class="menu__sub-list">
+                           <li class="menu-item">
+                              <a class="menu__link" href="#">Sub MENU 1</a>
+                           </li>
+                           <li class="menu-item">
+                              <a class="menu__link" href="#">SUB MENU 2</a>
+                           </li>
+                           <li class="menu-item current-menu-item current_page_item">
+                              <a class="menu__link" href="#">SUB MENU 3</a>
+                           </li>
+                           <li class="menu-item">
+                              <a class="menu__link" href="#">SUB MENU 4</a>
+                           </li>
+                        </ul>-->
+                     </li>
+                     <li class="menu-item">
+                        <a class="menu__link" href="#">Галерея</a>
+                     </li>
+                     <li class="menu-item">
+                        <a class="menu__link" href="#">Контакти</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+         <div class="header__right">
+            <ul data-da="menu-topmenu-container, last, 1099" class="header__social hidden">
+               <li>
+                  <a href="https://facebook.com/" target="_blank">
+                     <svg width="10" height="22" viewBox="0 0 10 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.93893 21.3743H5.72316V11.005H8.56207L9.12352 7.76494H5.72316V5.41709C5.72316 4.66022 6.21378 3.86554 6.91493 3.86554H8.84736V0.625488H6.47896V0.640012C2.77331 0.774188 2.01185 2.91524 1.94587 5.16419H1.93893V7.76494H0.0458984V11.005H1.93893V21.3743Z" fill="#353535"/>
+                     </svg>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/" target="_blank">
+                     <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.6756 0C3.44762 0 0.794922 2.64915 0.794922 5.88068V14.1193C0.794922 17.3473 3.44407 20 6.6756 20H14.9142C18.1422 20 20.7949 17.3509 20.7949 14.1193V5.88068C20.7949 2.6527 18.1458 0 14.9142 0H6.6756ZM6.6756 1.81818H14.9142C17.1621 1.81818 18.9767 3.63281 18.9767 5.88068V14.1193C18.9767 16.3672 17.1621 18.1818 14.9142 18.1818H6.6756C4.42773 18.1818 2.6131 16.3672 2.6131 14.1193V5.88068C2.6131 3.63281 4.42773 1.81818 6.6756 1.81818ZM16.1642 3.80682C15.7061 3.80682 15.3404 4.17259 15.3404 4.63068C15.3404 5.08878 15.7061 5.45455 16.1642 5.45455C16.6223 5.45455 16.9881 5.08878 16.9881 4.63068C16.9881 4.17259 16.6223 3.80682 16.1642 3.80682ZM10.7949 4.54545C7.79421 4.54545 5.34038 6.99929 5.34038 10C5.34038 13.0007 7.79421 15.4545 10.7949 15.4545C13.7956 15.4545 16.2495 13.0007 16.2495 10C16.2495 6.99929 13.7956 4.54545 10.7949 4.54545ZM10.7949 6.36364C12.8155 6.36364 14.4313 7.9794 14.4313 10C14.4313 12.0206 12.8155 13.6364 10.7949 13.6364C8.77433 13.6364 7.15856 12.0206 7.15856 10C7.15856 7.9794 8.77433 6.36364 10.7949 6.36364Z" fill="#353535"/>
+                     </svg>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.youtube.com/" target="_blank">
+                     <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M27.2137 3.77913C26.9863 1.76292 26.5118 1.17528 26.1756 0.901723C25.6418 0.476191 24.6729 0.324215 23.3778 0.23303C21.3016 0.0911858 17.7721 0 13.9658 0C10.1496 0 6.63005 0.0810541 4.55388 0.23303C3.25875 0.324215 2.28988 0.476191 1.75601 0.901723C1.41987 1.17528 0.955201 1.76292 0.717926 3.77913C0.381785 6.68693 0.381785 13.3131 0.717926 16.2209C0.955201 18.2371 1.41987 18.8247 1.75601 19.0983C2.28988 19.5238 3.25875 19.6758 4.55388 19.767C6.63005 19.9088 10.1496 20 13.9658 20C17.782 20 21.3016 19.9088 23.3778 19.767C24.6729 19.6758 25.6418 19.5238 26.1756 19.0983C26.5118 18.8349 26.9764 18.2371 27.2137 16.2209C27.5499 13.3131 27.5499 6.68693 27.2137 3.77913ZM10.7033 14.3465V5.64336L18.8497 9.98987L10.7033 14.3465Z" fill="#353535"/>
+                     </svg>
+                  </a>
+               </li>
+            </ul>
+            <div data-da="menu-topmenu-container, last, 1099" class="select hidden">
+               <div class="select__header">
+                  <span class="select__current">EN</span>
+                  <div class="select__icon">
+                     <svg width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.0459 7.125L10.0459 0.875H0.0458984L5.0459 7.125Z" fill="#212426"/>
+                     </svg>
+                  </div>
+               </div>
+               <div class="select__body">
+                  <div class="select__item current-lang">
+                     <a href="/en">EN</a>
+                  </div>
+                  <div class="select__item">
+                     <a href="/ua">UA</a>
+                  </div>
+                  <div class="select__item">
+                     <a href="/gb">GB</a>
+                  </div>
+                  <div class="select__item">
+                     <a href="/fr">FR</a>
+                  </div>
+               </div>
+            </div>
+            <a href="#" class="header__btn hidden">Зворотній звязок</a>
+         </div>
+         <button type="button" class="header__btn-menu n_btn menu__icon">
+            <span></span>
+         </button>
+      </div>
+   </div>
+</header>
       <main class="main">
 
          <section class="first-screen fix-bg" style="background-image: url('images/first-screen-bg.jpg')">
@@ -44,7 +150,7 @@
             <div class="n_container">
                <h2 class="n_sec-title">Виробництво<span>.</span></h2>
                <div class="production__blockText">
-                  <p>Багатий асортимент промислового інструменту власного виробництва Leniv із високоякісної сталі та сплавів для деревообробної галузі.</p>
+                  <p>Багатий асортимент <span>промислового інструменту власного виробництва Leniv</span> із високоякісної сталі та сплавів для деревообробної галузі.</p>
                </div>
                <div class="production__items">
                   <div class="production__item">
@@ -138,17 +244,9 @@
                <div class="service__items">
                   <div class="service__item">
                      <div class="service__blockText">
-                        <p>На базі підприємства Leniv функціонує сучасний сервісний центр з високоточним обладнанням і кваліфікованими спеціалістами.</p>
+                        <p>На базі підприємства <span>Leniv</span> функціонує <span>сучасний сервісний центр</span> з високоточним обладнанням і кваліфікованими спеціалістами.</p>
                      </div>
                      <div data-spollers data-one-spoller class="block">
-                        <div class="block__item item-active">
-                           <button tabindex="-1" type="button" data-spoller class="block__title _active">Загострення і реставрація дискових пил.</button>
-                           <div class="block__text">
-                              <div class="block__content">
-                                 <p>На базі підприємства Leniv функціонує сучасний сервісний центр з високоточним обладнанням і кваліфікованими спеціалістами.</p>
-                              </div>
-                           </div>
-                        </div>
                         <div class="block__item">
                            <button tabindex="-1" type="button" data-spoller class="block__title">Загострення і реставрація дискових пил.</button>
                            <div class="block__text">
@@ -563,15 +661,15 @@
 
    </div>
 
-   <script src="js/script.min.js?_v=20240601124724"></script>
-   <script src="files/fancybox/fancybox.umd.js?_v=20240601124724"></script>
-   <!--<script src="files/js/jquery-3.6.1.min.js?_v=20240601124724"></script>-->
-   <script src="files/swiper/js/swiper-bundle.min.js?_v=20240601124724"></script>
-   <script src="files/swiper/js/init.js?_v=20240601124724"></script>
+   <script src="js/script.min.js?_v=20240601164426"></script>
+   <script src="files/fancybox/fancybox.umd.js?_v=20240601164426"></script>
+   <!--<script src="files/js/jquery-3.6.1.min.js?_v=20240601164426"></script>-->
+   <script src="files/swiper/js/swiper-bundle.min.js?_v=20240601164426"></script>
+   <script src="files/swiper/js/init.js?_v=20240601164426"></script>
 
-   <script src="files/fancybox/fancybox.umd.js?_v=20240601124724"></script>
+   <script src="files/fancybox/fancybox.umd.js?_v=20240601164426"></script>
 
-   <script src="files/js/init-map.js?_v=20240601124724"></script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkUntpxgYywg_nlhREijLYWEUOHYan4dk&callback=initMap&_v=20240601124724"></script>
+   <script src="files/js/init-map.js?_v=20240601164426"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkUntpxgYywg_nlhREijLYWEUOHYan4dk&callback=initMap&_v=20240601164426"></script>
 </body>
 </html>
