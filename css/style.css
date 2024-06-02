@@ -2771,7 +2771,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   font-size: 15.98px;
   font-weight: 400;
   line-height: 22.78px;
-  margin: 30px 0 0 auto;
+  margin: 25px 0 0 auto;
   padding-bottom: 8px;
   position: relative;
   text-align: right;
@@ -4387,13 +4387,21 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
 @media screen and (min-width: 1921px) {
   .first-screen {
-    height: 1200px;
+    height: 950px;
+  }
+
+  .first-screen .n_container {
+    height: inherit;
+  }
+
+  .first-screen__block {
+    bottom: 120px;
   }
 }
 
 @media screen and (max-width: 1920.98px) {
   .first-screen {
-    min-height: 100dvh;
+    min-height: 100vh;
   }
 }
 
@@ -5101,7 +5109,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   }
 
   .first-screen__block p {
-    margin-top: 15px;
+    margin-top: -12px;
   }
 
   .production {
