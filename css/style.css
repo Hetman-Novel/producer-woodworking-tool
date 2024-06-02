@@ -2758,7 +2758,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   font-weight: 400;
   line-height: 87.17px;
   letter-spacing: 4.8767123222px;
-  max-width: 979px;
+  max-width: 700px;
   margin: 0 0 0 auto;
   text-transform: uppercase;
   text-align: right;
@@ -4819,6 +4819,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .first-screen__block h1 {
     font-size: 54px;
     line-height: 60px;
+    max-width: 500px;
   }
 
   .why-us__blockText {
