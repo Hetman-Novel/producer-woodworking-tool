@@ -23,6 +23,12 @@ setTimeout(() => {
 }, 600);
 
 
+const mainBlockTitle = document.getElementById('main-block-title');
+const mainTitleStrings = document.getElementById('main-title-strings');
+if (mainBlockTitle && mainTitleStrings) {
+   mainBlockTitle.style.height = mainTitleStrings.scrollHeight + 50 + 'px';
+}
+
 const productionBlockTitle = document.getElementById('production-block-title');
 const productionTitleStrings = document.getElementById('production-title-strings');
 if (productionBlockTitle && productionTitleStrings) {
