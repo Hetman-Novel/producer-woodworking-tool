@@ -4182,6 +4182,12 @@ body._touch .header .menu__list > li._active .menu__arrow {
   }
 }
 
+@media (min-width: 1025px) {
+  .fix-bg {
+    background-attachment: fixed;
+  }
+}
+
 @media screen and (min-width: 1100px) {
   .header__close-menu {
     display: none;
@@ -4844,6 +4850,12 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .gallery__slider {
     margin-left: 35px;
     margin-right: 35px;
+  }
+}
+
+@media (max-width: 1024.98px) {
+  body.android .fix-bg {
+    background-attachment: fixed;
   }
 }
 
