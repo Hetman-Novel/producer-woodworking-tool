@@ -2703,6 +2703,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center bottom;
 }
 
 .js-wrap-title {
