@@ -2700,9 +2700,9 @@ body._touch .header .menu__list > li._active .menu__arrow {
 /* Page - Home */
 
 .fix-bg {
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center;
 }
 
 .js-wrap-title {
