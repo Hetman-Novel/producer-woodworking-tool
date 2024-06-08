@@ -2700,7 +2700,6 @@ body._touch .header .menu__list > li._active .menu__arrow {
 /* Page - Home */
 
 .fix-bg {
-  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -2727,18 +2726,19 @@ body._touch .header .menu__list > li._active .menu__arrow {
   overflow: hidden;
   position: relative;
   z-index: 1;
-}
-
-.first-screen::after {
-  background-color: rgba(128, 128, 128, 0.2);
-  content: "";
-  left: 0;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 100%;
-  z-index: 1;
+  /*
+  &::after {
+     background-color: rgba(128, 128, 128, 0.2);
+     content: '';
+     left: 0;
+     height: 100%;
+     position: absolute;
+     right: 0;
+     top: 0;
+     width: 100%;
+     z-index: 1;
+  }
+  */
 }
 
 .first-screen .n_container {
