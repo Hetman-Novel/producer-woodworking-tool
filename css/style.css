@@ -3789,6 +3789,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
   padding-top: 160px;
 }
 
+.page-services__content {
+  margin-bottom: 65px;
+}
+
 .page-services__contentBlock {
   background-color: #fff;
   overflow: hidden;
@@ -3901,7 +3905,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
 }
 
 .page-services .communication-contacts {
-  padding-top: 96px;
+  padding-top: 31px;
 }
 
 .wrap-lists {
