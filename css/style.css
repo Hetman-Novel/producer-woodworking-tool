@@ -5569,6 +5569,14 @@ img[loading=lazy] {
   body.android .fix-bg {
     background-attachment: fixed;
   }
+
+  body.iOS .fix-bg {
+    background-position-y: top;
+    background-repeat: repeat-y;
+    background-size: 100%;
+  }
+
+  /*.page-about-us__content{opacity: 0;}*/
 }
 
 @media screen and (max-width: 991.98px) {
