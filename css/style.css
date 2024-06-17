@@ -5574,7 +5574,14 @@ img[loading=lazy] {
     background-attachment: fixed;
   }
 
-  /*.page-about-us__content{opacity: 0;}*/
+  body.iOS .fix-bg {
+    background-repeat: repeat-y;
+  }
+
+  body.android .fix-bg {
+    background-repeat: repeat-y;
+    background-position: center center;
+  }
 }
 
 @media screen and (max-width: 991.98px) {
