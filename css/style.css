@@ -4226,7 +4226,6 @@ img[loading=lazy] {
   line-height: 87.17px;
   letter-spacing: 4.8767123222px;
   margin: 0;
-  max-width: 1060px;
 }
 
 .page-blog-single__contentBlockHead p {
@@ -5092,7 +5091,6 @@ img[loading=lazy] {
   .page-blog-single__contentBlockHead .n_sec-title {
     font-size: 60px;
     line-height: 71.5px;
-    max-width: 100%;
   }
 
   .page-not-found__content h1 span {
