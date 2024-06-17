@@ -5571,9 +5571,7 @@ img[loading=lazy] {
   }
 
   body.iOS .fix-bg {
-    background-position-y: top;
     background-repeat: repeat-y;
-    background-size: 100%;
   }
 
   /*.page-about-us__content{opacity: 0;}*/
