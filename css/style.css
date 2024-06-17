@@ -2718,8 +2718,9 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
 /* Page - Home */
 
-.fix-bg {
+body:not(.ios) .fix-bg {
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -3927,7 +3928,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
 }
 
 .wrap-lists ul:nth-child(1) li {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   font-weight: 700;
   padding-right: 8px;
@@ -3939,7 +3940,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
 }
 
 .wrap-lists ul:nth-child(2)::before {
-  background-color: #B5D5F8;
+  background-color: #187DEE;
   content: "";
   display: inline-block;
   height: calc(100% - 48px);
@@ -4002,8 +4003,8 @@ body._touch .header .menu__list > li._active .menu__arrow {
   font-size: 20.48px;
   font-weight: 400;
   line-height: 30.72px;
-  text-align: right;
-  margin: 19px 0 0 auto;
+  text-align: left;
+  margin: 19px 0 0 0;
 }
 
 .page-about-us__wrapSlider {
@@ -4859,9 +4860,13 @@ img[loading=lazy] {
 }
 
 @media (min-width: 1025px) {
+  /*
   .fix-bg {
-    background-attachment: fixed;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position: center center;
   }
+  */
 }
 
 @media screen and (min-width: 1100px) {
@@ -5570,15 +5575,15 @@ img[loading=lazy] {
 }
 
 @media (max-width: 1024.98px) {
+  /*
   body.android .fix-bg {
-    background-attachment: fixed;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position: center center;
   }
+  */
 
-  body.iOS .fix-bg {
-    background-repeat: repeat-y;
-  }
-
-  body.android .fix-bg {
+  body.ios .fix-bg {
     background-repeat: repeat-y;
     background-position: center center;
   }
@@ -5691,6 +5696,12 @@ img[loading=lazy] {
   .our-catalog__blockImage.desktop {
     display: none;
   }
+
+  .page-services__itemColumn:nth-child(1) img {
+    height: 68px;
+    margin-left: -18px;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 720.98px) {
@@ -5743,6 +5754,10 @@ img[loading=lazy] {
 }
 
 @media screen and (max-width: 640.98px) {
+  .page-services__item:nth-child(2) {
+    padding-top: 15px;
+  }
+
   .footer {
     padding-bottom: 39px;
     padding-top: 40px;
@@ -6247,12 +6262,8 @@ img[loading=lazy] {
   }
 
   .page-services__items:not(:last-child) {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     padding-bottom: 5px;
-  }
-
-  .page-services__item:nth-child(2) {
-    padding-top: 15px;
   }
 
   .page-services__item h2 {
@@ -6281,9 +6292,8 @@ img[loading=lazy] {
   }
 
   .page-services__itemColumn:nth-child(1) img {
-    height: 75px;
-    margin-left: -18px;
-    width: auto;
+    height: 43px;
+    margin-left: -12px;
   }
 
   .wrap-lists ul:nth-child(1) {
@@ -6317,7 +6327,7 @@ img[loading=lazy] {
   }
 
   .page-about-us__headInfo p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
   }
 
@@ -6326,8 +6336,8 @@ img[loading=lazy] {
   }
 
   .page-about-us__headInfoRead {
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 18px;
+    line-height: 24px;
     margin-top: 12px;
   }
 
@@ -6544,6 +6554,12 @@ img[loading=lazy] {
   .first-screen__block h1 {
     font-size: 30px;
     line-height: 38px;
+  }
+
+  .page-services__itemColumn:nth-child(1) img {
+    height: 35px;
+    margin-left: -8px;
+    width: auto;
   }
 }
 
