@@ -4,10 +4,10 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="files/swiper/css/swiper-bundle.min.css?_v=20240617125907">
-   <link rel="stylesheet" href="files/fancybox/fancybox.css?_v=20240617125907">
-   <link rel="stylesheet" href="files/aos/aos.css?_v=20240617125907">
-   <link rel="stylesheet" href="css/style.min.css?_v=20240617125907">
+   <link rel="stylesheet" href="files/swiper/css/swiper-bundle.min.css?_v=20240617143423">
+   <link rel="stylesheet" href="files/fancybox/fancybox.css?_v=20240617143423">
+   <link rel="stylesheet" href="files/aos/aos.css?_v=20240617143423">
+   <link rel="stylesheet" href="css/style.min.css?_v=20240617143423">
    <!--<link rel="icon" type="image/svg+xml" href="favicon.svg">-->
    <title>Leniv - Про нас, Новини / Події / Нагороди</title>
 
@@ -22,16 +22,13 @@
             background-image: url('images/about-us-bg-mobile.jpg');
          }
       }
+      .page-bg-image {
+         background-image: url('../images/first-screen-bg-mobile.jpg')
+      }
       @media (min-width: 481px) {
 
          .page-bg-image {
             background-image: url('../images/first-screen-bg.jpg')
-         }
-      }
-      @media (max-width: 480.98px) {
-
-         .page-bg-image {
-            background-image: url('../images/first-screen-bg-mobile.jpg')
          }
       }
    </style>
@@ -151,7 +148,12 @@
          <div class="page-about-us__content">
             <div class="n_container">
                <div class="page-about-us__contentBlock">
-                  <h1 class="n_sec-title" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0">Про нас</h1>
+                  <div id="page-about-us-block-title" class="js-wrap-title">
+                     <h1 id="page-about-us-title" class="n_sec-title"></h1>
+                     <div id="page-about-us-title-strings" class="n_sec-title no-display-none">
+                        <span>Про нас</span>
+                     </div>
+                  </div>
                   <div class="page-about-us__head">
                      <div class="page-about-us__wrapSlider" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
                         <div class="page-about-us__slider swiper-conteiner">
@@ -369,16 +371,20 @@
 
    </div>
 
-   <script src="js/script.min.js?_v=20240617125907"></script>
+   <script src="js/script.min.js?_v=20240617143423"></script>
 
-   <!--<script src="files/js/jquery-3.6.1.min.js?_v=20240617125907"></script>-->
+   <script src="files/js/jquery-3.6.1.min.js?_v=20240617143423"></script>
 
-   <script src="files/swiper/js/swiper-bundle.min.js?_v=20240617125907"></script>
-   <script src="files/swiper/js/init.js?_v=20240617125907"></script>
+   <script src="files/swiper/js/swiper-bundle.min.js?_v=20240617143423"></script>
+   <script src="files/swiper/js/init.js?_v=20240617143423"></script>
 
-   <script src="files/aos/aos.js?_v=20240617125907"></script>
+   <script src="files/js/typed.js?_v=20240617143423"></script>
+   <script src="files/js/typed-init.js?_v=20240617143423"></script>
+   <script src="files/js/typed-page-about-us.js?_v=20240617143423"></script>
+
+   <script src="files/aos/aos.js?_v=20240617143423"></script>
    
-   <script src="files/js/script.js?_v=20240617125907"></script>
+   <script src="files/js/script.js?_v=20240617143423"></script>
 
 </body>
 </html>

@@ -4,10 +4,10 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="files/swiper/css/swiper-bundle.min.css?_v=20240617125907">
-   <link rel="stylesheet" href="files/fancybox/fancybox.css?_v=20240617125907">
-   <link rel="stylesheet" href="files/aos/aos.css?_v=20240617125907">
-   <link rel="stylesheet" href="css/style.min.css?_v=20240617125907">
+   <link rel="stylesheet" href="files/swiper/css/swiper-bundle.min.css?_v=20240617143423">
+   <link rel="stylesheet" href="files/fancybox/fancybox.css?_v=20240617143423">
+   <link rel="stylesheet" href="files/aos/aos.css?_v=20240617143423">
+   <link rel="stylesheet" href="css/style.min.css?_v=20240617143423">
    <!--<link rel="icon" type="image/svg+xml" href="favicon.svg">-->
    <title>Leniv - Сторінка послуг 2</title>
 
@@ -22,16 +22,13 @@
             background-image: url('images/about-us-bg-mobile.jpg');
          }
       }
+      .page-bg-image {
+         background-image: url('../images/first-screen-bg-mobile.jpg')
+      }
       @media (min-width: 481px) {
 
          .page-bg-image {
             background-image: url('../images/first-screen-bg.jpg')
-         }
-      }
-      @media (max-width: 480.98px) {
-
-         .page-bg-image {
-            background-image: url('../images/first-screen-bg-mobile.jpg')
          }
       }
    </style>
@@ -151,7 +148,12 @@
          <div class="page-services__content">
             <div class="n_container">
                <div class="page-services__contentBlock">
-                  <h1 class="n_sec-title">Дискові пили<span>.</span></h1>
+                  <div id="page-service-block-title" class="js-wrap-title">
+                     <h1 id="page-service-title" class="n_sec-title"></h1>
+                     <div id="page-service-title-strings" class="n_sec-title no-display-none">
+                        <span>Дискові пили<span>.</span></span>
+                     </div>
+                  </div>
                   <div class="page-services__items">
                      <div class="page-services__item">
                         <div class="page-services__contentBlockImage wrap-lazy-load-image">
@@ -436,8 +438,11 @@
 
          <section id="section-service" class="service fix-bg" style="background-image: url('images/service-bg.jpg')">
             <div class="n_container">
-               <div id="service-block-title" class="js-wrap-title">
-                  <h2 class="n_sec-title">Сервіс<span>.</span></h2>
+               <div id="page-service-section-block-title" class="js-wrap-title">
+                  <h2 id="page-service-section-title" class="n_sec-title"></h2>
+                  <div id="page-service-section-title-strings" class="n_sec-title no-display-none">
+                     <span>Сервіс<span>.</span></span>
+                  </div>
                </div>
                <div class="service__items">
                   <div class="service__item">
@@ -489,7 +494,7 @@
                      </div>
                   </div>
                   <div class="service__item">
-                     <div class="service__blockImage wrap-lazy-load-image">
+                     <div class="service__blockImage wrap-lazy-load-image no-blick">
                         <img src="images/service.png" alt="">
                      </div>
                   </div>
@@ -568,16 +573,20 @@
 
    </div>
 
-   <script src="js/script.min.js?_v=20240617125907"></script>
+   <script src="js/script.min.js?_v=20240617143423"></script>
 
-   <!--<script src="files/js/jquery-3.6.1.min.js?_v=20240617125907"></script>-->
+   <!--<script src="files/js/jquery-3.6.1.min.js?_v=20240617143423"></script>-->
 
-   <script src="files/js/init-map.js?_v=20240617125907"></script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkUntpxgYywg_nlhREijLYWEUOHYan4dk&callback=initMap&_v=20240617125907"></script>
+   <script src="files/js/init-map.js?_v=20240617143423"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkUntpxgYywg_nlhREijLYWEUOHYan4dk&callback=initMap&_v=20240617143423"></script>
 
-   <script src="files/aos/aos.js?_v=20240617125907"></script>
+   <script src="files/js/typed.js?_v=20240617143423"></script>
+   <script src="files/js/typed-init.js?_v=20240617143423"></script>
+   <script src="files/js/typed-page-services.js?_v=20240617143423"></script>
+
+   <script src="files/aos/aos.js?_v=20240617143423"></script>
    
-   <script src="files/js/script.js?_v=20240617125907"></script>
+   <script src="files/js/script.js?_v=20240617143423"></script>
 
 </body>
 </html>
